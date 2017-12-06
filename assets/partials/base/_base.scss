@@ -1,0 +1,32 @@
+// Fonts : font-family: 'Pacifico', cursive;
+//         font-family: 'Bad Script', cursive;
+$title-font: 'Pacifico', cursive;
+$main-font: 'Bad Script', cursive;
+
+*{
+  padding:0;
+  margin:0;
+}
+
+html{
+  width: 100%;
+  height: 100%;
+}
+
+body{
+  width: 100%;
+  height: 100%;
+}
+
+h1{
+  font-family: $title-font;
+
+}
+
+p{
+  font-family: $main-font;
+}
+
+.wrapper{
+  text-align:center;
+}
