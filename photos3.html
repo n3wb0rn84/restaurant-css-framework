@@ -13,6 +13,7 @@
 <!-- Scripts -->
   <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
   <script src="assets/js/bootstrap.bundle.min.js"></script>
   <script src="assets/js/bootstrap.min.js"></script>
 
@@ -20,17 +21,16 @@
 </head>
 <body>
 
-
   <div class="pos-f-t">
   <div class="collapse" id="navbarToggleExternalContent">
     <div class="themed-color p-4">
       <ul class="navbar-nav d-flex flex-row justify-content-around mr-auto">
       <li class="nav-item active">
-        <a class="themed-text nav-link" href="accueil.html">Accueil<span class="sr-only themed-text2">(current)</span></a>
+        <a class="themed-text nav-link" href="accueil.html">Accueil</a>
         <!-- above span to show current page -->
       </li>
       <li class="nav-item">
-        <a class="themed-text nav-link" href="carte.html">Carte</a>
+        <a class="themed-text nav-link" href="carte.html">Carte<span class="sr-only themed-text2">(current)</span></a>
       </li>
       <li class="nav-item">
         <a class="themed-text nav-link" href="photos.html">Photos</a>
@@ -52,37 +52,32 @@
       <span class="navbar-toggler-icon"></span>
     </button>
   </nav>
-<div class="panel-pub d-flex flex-row">
 
-  <div class="card">
-  <img class="card-img-top" src="assets/images/burger-pub.jpeg" alt="Card image cap">
-  <div class="card-body">
-    <p class="card-text">Want some fun ? Double it , take-away promotion: buy one, get one free (only on tuesday's)</p>
+  <h1 class="galerie-title">Galerie photo:</h1>
+
+  <div class="container photorama">
+  <div class="row">
+    <div class="col-sm-4">
+      <img class="picturama" src="assets/images/burger-pub.jpeg" alt="burger">
+    </div>
+    <div class="col-sm-4">
+      <img class="picturama" src="assets/images/burger-pub.jpeg" alt="burger">
+    </div>
+    <div class="col-sm-4">
+      <img class="picturama" src="assets/images/burger-pub.jpeg" alt="burger">
+    </div>
   </div>
+
+  <nav aria-label="Page navigation example">
+  <ul class="pagination">
+    <li class="page-item"><a class="page-link" href="photos2.html">Previous</a></li>
+    <li class="page-item"><a class="page-link" href="photos.html">1</a></li>
+    <li class="page-item"><a class="page-link" href="photos2.html">2</a></li>
+    <li class="page-item active"><a class="page-link" href="photos3.html">3</a></li>
+    <li class="page-item"><a class="page-link" href="photos4.html">4</a></li>
+    <li class="page-item"><a class="page-link" href="photos4.html">Next</a></li>
+  </ul>
+</nav>
 </div>
-
-<div class="jumbotron jimbo">
-  <h1 class="display-3">Hello, world!</h1>
-  <p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
-  <hr class="my-4">
-  <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
-  <p class="lead">
-    <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
-  </p>
-</div>
-
-<div class="card">
-  <img class="card-img-top" src="assets/images/burger-pub.jpeg" alt="Card image cap">
-  <div class="card-body">
-    <p class="card-text">Lorem ipsum dolor sit amet</p>
-  </div>
-</div>
-
-</div>
-
-
-
-
-
 </body>
 </html>

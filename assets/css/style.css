@@ -22,12 +22,19 @@ p {
   font-family: "Bad Script", cursive;
   font-size: 2em; }
 
+.jimbo {
+  background-color: transparent !important;
+  text-align: center;
+  text-shadow: 1px 1px black;
+  color: white; }
+
 .wrapper {
   position: relative;
   display: block;
   text-align: center;
   color: white;
-  margin-top: 8em; }
+  margin-top: 8em;
+  text-shadow: 1px 1px black; }
   .wrapper img {
     position: absolute;
     width: 7em;
@@ -74,5 +81,30 @@ p {
 
 .display-3 {
   font-family: "Pacifico", cursive; }
+
+#accordion {
+  margin-left: 13%;
+  margin-top: 2%; }
+  #accordion span {
+    float: right; }
+  #accordion .card {
+    width: 75%; }
+
+.photorama {
+  width: 100%;
+  margin-top: 5%; }
+  .photorama .picturama {
+    width: 100% !important; }
+  .photorama .pagination {
+    margin-left: 37%;
+    margin-top: 2%; }
+
+.galerie-title {
+  padding-top: 5%;
+  text-align: center;
+  font-family: "Pacifico", cursive;
+  color: white;
+  text-decoration: underline;
+  text-shadow: 1px 1px black; }
 
 /*# sourceMappingURL=style.css.map */

@@ -40,12 +40,20 @@ p{
       }
 }
 
+.jimbo{
+  background-color: transparent !important;
+  text-align: center;
+  text-shadow: 1px 1px black;
+  color: white;
+}
+
 .wrapper{
   position:relative;
   display: block;
   text-align: center;
   color: white;
   margin-top:8em;
+  text-shadow: 1px 1px black;
   img{
     position:absolute;
     width: 7em;
