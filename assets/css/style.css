@@ -26,8 +26,9 @@ p {
 .jimbo {
   background-color: transparent !important;
   text-align: center;
-  text-shadow: 1px 1px black;
-  color: white; }
+  text-shadow: 2px 2px #007bff;
+  color: white;
+  font-weight: bold; }
 
 .wrapper {
   position: relative;
@@ -35,7 +36,7 @@ p {
   text-align: center;
   color: white;
   margin-top: 8em;
-  text-shadow: 1px 1px black; }
+  text-shadow: 1px 1px #007bff; }
   .wrapper img {
     position: absolute;
     width: 7em;
@@ -54,11 +55,11 @@ p {
   to {
     transform: translateY(1em); } }
 .themed-color {
-  background-color: #3BBF79;
+  background-color: #007bff;
   background-image: url("../assets/images/bkg-nav.jpeg"); }
 
 .themed-text {
-  color: #B22314 !important;
+  color: #ffffff !important;
   font-family: "Pacifico", cursive; }
 
 .themed-text2 {
@@ -73,8 +74,7 @@ p {
   margin: 2rem; }
 
 .jumbotron {
-  width: 45rem;
-  max-height: 30em;
+  width: 60%;
   text-align: center; }
 
 .card {
@@ -88,7 +88,7 @@ p {
   color: white;
   text-align: center;
   text-decoration: underline;
-  text-shadow: 1px 1px black; }
+  text-shadow: 1px 1px #007bff; }
 
 .card iframe {
   width: 100%;
@@ -99,6 +99,11 @@ p {
   text-align: center; }
 .localisation .card {
   border: 1px black solid; }
+.localisation .card-body {
+  background-color: #007bff;
+  color: white;
+  text-shadow: 1px 1px black;
+  font-weight: bold; }
 
 #accordion {
   margin-left: 13%;
@@ -106,7 +111,17 @@ p {
   #accordion span {
     float: right; }
   #accordion .card {
-    width: 75%; }
+    width: 75%;
+    height: 100%;
+    overflow-y: auto;
+    line-height: 1.5; }
+
+.separator {
+  display: block;
+  width: 50%;
+  margin-left: 25%;
+  height: 1px;
+  background-color: #007bff; }
 
 .photorama {
   width: 100%;
@@ -120,11 +135,11 @@ p {
   font-family: "Pacifico", cursive;
   color: white;
   text-decoration: underline;
-  text-shadow: 1px 1px black; }
+  text-shadow: 1px 1px #007bff; }
 
 .contact-us {
   color: white;
-  text-shadow: 1px 1px black;
+  text-shadow: 1px 1px #007bff;
   font-weight: bold;
   text-align: justify; }
   .contact-us .modal-body, .contact-us .modal-header, .contact-us .modal-footer {

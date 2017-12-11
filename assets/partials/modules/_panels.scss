@@ -9,9 +9,8 @@
 }
 
 .jumbotron{
-  width: 45rem;
-  max-height: 30em;
-    text-align: center;
+  width: 60%;
+  text-align: center;
 }
 
 .card{
@@ -27,7 +26,7 @@
   color: white;
   text-align: center;
   text-decoration: underline;
-  text-shadow: 1px 1px black;
+  text-shadow: 1px 1px #007bff;
 }
 
 .card iframe{
@@ -42,6 +41,11 @@
   }
   .card{
     border: 1px black solid;
-
+  }
+  .card-body{
+    background-color: #007bff;
+    color: white;
+    text-shadow: 1px 1px black;
+    font-weight: bold;
   }
 }

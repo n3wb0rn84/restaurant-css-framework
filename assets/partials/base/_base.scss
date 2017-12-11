@@ -44,8 +44,10 @@ p{
 .jimbo{
   background-color: transparent !important;
   text-align: center;
-  text-shadow: 1px 1px black;
+  text-shadow: 2px 2px #007bff;
   color: white;
+  font-weight: bold;
+
 }
 
 .wrapper{
@@ -54,7 +56,7 @@ p{
   text-align: center;
   color: white;
   margin-top:8em;
-  text-shadow: 1px 1px black;
+  text-shadow: 1px 1px #007bff;
   img{
     position:absolute;
     width: 7em;
