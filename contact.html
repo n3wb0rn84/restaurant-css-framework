@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!-- Style Css -->
+  <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+  <link rel="stylesheet" href="assets/css/bootstrap-grid.min.css">
+  <link rel="stylesheet" href="assets/css/bootstrap-reboot.min.css">
+<!-- Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Bad+Script|Pacifico" rel="stylesheet">
+<!-- Scripts -->
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+  <script src="assets/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/js/bootstrap.min.js"></script>
+
+  <title>The Burger</title>
+</head>
+<body>
+
+
+  <div class="pos-f-t">
+  <div class="collapse" id="navbarToggleExternalContent">
+    <div class="themed-color p-4">
+      <ul class="navbar-nav d-flex flex-row justify-content-around mr-auto">
+      <li class="nav-item active">
+        <a class="themed-text nav-link" href="accueil.html">Accueil<span class="sr-only themed-text2">(current)</span></a>
+        <!-- above span to show current page -->
+      </li>
+      <li class="nav-item">
+        <a class="themed-text nav-link" href="carte.html">Carte</a>
+      </li>
+      <li class="nav-item">
+        <a class="themed-text nav-link" href="photos.html">Photos</a>
+      </li>
+      <li class="nav-item">
+        <a class="themed-text nav-link" href="restaurants.html">Restaurants</a>
+      </li>
+      <li class="nav-item">
+        <a class="themed-text nav-link" href="contact.html">Contact</a>
+      </li>
+    </ul>
+    </div>
+  </div>
+</div>
+</nav>
+  <nav class="navbar sticky-top navbar-dark themed-color">
+    <button class="navbar-toggler d-inline-block align-top themed-text" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+      Menu
+      <span class="navbar-toggler-icon"></span>
+    </button>
+  </nav>
+
+<h1 class="loc-title mt-2">Nous-contacter :</h1>
+<div class="container contact-us mt-5">
+<form>
+  <div class="row">
+    <div class="col">
+      <label>Nom</label>
+      <input type="text" class="form-control" placeholder="Nom">
+    </div>
+    <div class="col">
+      <label>Prénom</label>
+      <input type="text" class="form-control" placeholder="Prénom">
+    </div>
+    <div class="col">
+      <label>E-mail</label>
+      <input type="text" class="form-control" placeholder="E-mail">
+    </div>
+  </div>
+  <div class="form-group">
+    <label for="exampleFormControlSelect1">Sujet</label>
+    <select class="form-control" palceholder="sujet" id="exampleFormControlSelect1">
+      <option></option>
+      <option>Réclamation</option>
+      <option>Promotions</option>
+      <option>Catering</option>
+      <option>Suggestions</option>
+      <option>Autres(à préciser)</option>
+    </select>
+  </div>
+  <div class="form-group">
+    <label for="exampleFormControlTextarea1">Message :</label>
+    <textarea class="form-control" id="exampleFormControlTextarea1" placeholder="Votre message" rows="6"></textarea>
+  </div>
+  <button type="button" class="btn btn-primary btn-block" data-toggle="modal" data-target="#modal-confirm">
+  Envoi
+</button>
+
+<!-- Modal -->
+<div class="modal fade" id="modal-confirm" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Vos opinions et envies comptent pour nous.</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        Merci pour votre message , nous vous répondrons dans les plus brefs délais.
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Fermer</button>
+      </div>
+    </div>
+  </div>
+</div>
+</form>
+</div>
+
+
+</body>
+</html>

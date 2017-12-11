@@ -12,7 +12,8 @@ body {
   background-image: url("../images/table-resto.jpg");
   background-position: fixed;
   background-repeat: no-repeat;
-  background-size: cover; }
+  background-size: cover;
+  background-attachment: fixed; }
 
 .welcome-wrapper-title h1 {
   font-family: "Pacifico", cursive;
@@ -82,6 +83,23 @@ p {
 .display-3 {
   font-family: "Pacifico", cursive; }
 
+.loc-title {
+  font-family: "Pacifico", cursive;
+  color: white;
+  text-align: center;
+  text-decoration: underline;
+  text-shadow: 1px 1px black; }
+
+.card iframe {
+  width: 100%;
+  height: 50%; }
+
+.localisation p {
+  font-size: 20px;
+  text-align: center; }
+.localisation .card {
+  border: 1px black solid; }
+
 #accordion {
   margin-left: 13%;
   margin-top: 2%; }
@@ -95,9 +113,6 @@ p {
   margin-top: 5%; }
   .photorama .picturama {
     width: 100% !important; }
-  .photorama .pagination {
-    margin-left: 37%;
-    margin-top: 2%; }
 
 .galerie-title {
   padding-top: 5%;
@@ -106,5 +121,13 @@ p {
   color: white;
   text-decoration: underline;
   text-shadow: 1px 1px black; }
+
+.contact-us {
+  color: white;
+  text-shadow: 1px 1px black;
+  font-weight: bold;
+  text-align: justify; }
+  .contact-us .modal-body, .contact-us .modal-header, .contact-us .modal-footer {
+    background-color: black; }
 
 /*# sourceMappingURL=style.css.map */
