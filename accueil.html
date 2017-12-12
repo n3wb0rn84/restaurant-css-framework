@@ -20,31 +20,16 @@
 </head>
 <body>
 
-
-  <div class="pos-f-t">
   <div class="collapse" id="navbarToggleExternalContent">
-    <div class="themed-color p-4">
-      <ul class="navbar-nav d-flex flex-row justify-content-around mr-auto">
-      <li class="nav-item active">
-        <a class="themed-text nav-link" href="accueil.html">Accueil<span class="sr-only themed-text2">(current)</span></a>
-        <!-- above span to show current page -->
-      </li>
-      <li class="nav-item">
-        <a class="themed-text nav-link" href="carte.html">Carte</a>
-      </li>
-      <li class="nav-item">
-        <a class="themed-text nav-link" href="photos.html">Photos</a>
-      </li>
-      <li class="nav-item">
-        <a class="themed-text nav-link" href="restaurants.html">Restaurants</a>
-      </li>
-      <li class="nav-item">
-        <a class="themed-text nav-link" href="contact.html">Contact</a>
-      </li>
-    </ul>
+    <div class="themed-color menu-switch row">
+        <a class="col-6 col-md-2 offset-md-1 nav-item active themed-text nav-link" href="accueil.html">Accueil<span class="sr-only themed-text2">(current)</span></a>
+        <a class="col-6 col-md-2 nav-item themed-text nav-link" href="carte.html">Carte</a>
+        <a class="col-6 col-md-2 nav-item themed-text nav-link" href="photos.html">Photos</a>
+        <a class="col-6 col-md-2 nav-item themed-text nav-link" href="restaurants.html">Restaurants</a>
+        <a class="col-6 col-md-2 nav-item themed-text nav-link" href="contact.html">Contact</a>
     </div>
   </div>
-</div>
+
 </nav>
   <nav class="navbar sticky-top navbar-dark themed-color">
     <button class="navbar-toggler d-inline-block align-top themed-text" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -52,16 +37,16 @@
       <span class="navbar-toggler-icon"></span>
     </button>
   </nav>
-<div class="panel-pub d-flex flex-row">
 
-  <div class="card">
-  <img class="card-img-top" src="assets/images/burger-pub.jpeg" alt="Card image cap">
-  <div class="card-body">
-    <p class="card-text">Want some fun ? Double it , take-away promotion: buy one, get one free (only on tuesday's)</p>
+<div class="panel-pub row">
+  <div class="card publi col-12 col-md-2 offset-md-1">
+    <img src="assets/images/burger-pub.jpeg" alt="Card image cap">
+    <div class="text-pub">
+      <p>lorem ipsum bla blou bli</p>
+    </div>
   </div>
-</div>
 
-<div class="jumbotron jimbo">
+<div class="jumbotron jimbo col-12 col-md-6">
   <h1 class="display-3">Hello, world!</h1>
   <p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
   <hr class="my-4">
@@ -71,16 +56,16 @@
   </p>
 </div>
 
-<div class="card">
-  <img class="card-img-top" src="assets/images/burger-pub.jpeg" alt="Card image cap">
-  <div class="card-body">
-    <p class="card-text">Lorem ipsum dolor sit amet</p>
-  </div>
+<div class="card publi col-12 col-md-2">
+  <img src="assets/images/burger-pub.jpeg" alt="Card image cap">
+    <p class="text-pub">Lorem ipsum dolor sit amet</p>
 </div>
 
 </div>
 
-
+<footer>
+  <p>Tous nos restaurant sont ouverts, du lundi au dimanche de 11h à 23h30</p>
+</footer>
 
 
 

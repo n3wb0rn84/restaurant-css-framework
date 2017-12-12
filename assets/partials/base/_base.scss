@@ -41,6 +41,25 @@ p{
       }
 }
 
+footer{
+  position:fixed;
+  bottom:0;
+  right:0;
+  left:0;
+  background-color: #007bff;
+  width: 100%;
+  height: auto;
+  padding:0;
+  margin:0;
+  text-align: center;
+  color: white;
+  font-size: 10px !important;
+  line-height: 1.5;
+  p{
+    padding-top: 0.5em;
+  }
+}
+
 .jimbo{
   background-color: transparent !important;
   text-align: center;

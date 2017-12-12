@@ -1,21 +1,23 @@
-.card{
-  width: 20rem;
-  max-height: 30em;
+.publi{
+  width: 20%;
+  height: 100%;
 
+  img{
+    width: 100%;
+    height: auto;
+    margin:0 !important;
+    padding:0 !important;
+  }
 }
 
 .panel-pub{
-  margin: 2rem;
+  margin-top: 2%;
+  margin-left: 12%;
+  height:70%;
+  margin-bottom: 80em;
 }
 
-.jumbotron{
-  width: 60%;
-  text-align: center;
-}
 
-.card{
-  margin: 0 2em 0 2em;
-}
 
 .display-3{
   font-family: $title-font;

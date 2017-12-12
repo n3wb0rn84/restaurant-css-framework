@@ -23,6 +23,23 @@ p {
   font-family: "Bad Script", cursive;
   font-size: 2em; }
 
+footer {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  background-color: #007bff;
+  width: 100%;
+  height: auto;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+  color: white;
+  font-size: 10px !important;
+  line-height: 1.5; }
+  footer p {
+    padding-top: 0.5em; }
+
 .jimbo {
   background-color: transparent !important;
   text-align: center;
@@ -66,19 +83,23 @@ p {
   color: blue;
   display: block; }
 
-.card {
-  width: 20rem;
-  max-height: 30em; }
+.menu-switch {
+  padding-left: 6% !important; }
+
+.publi {
+  width: 20%;
+  height: 100%; }
+  .publi img {
+    width: 100%;
+    height: auto;
+    margin: 0 !important;
+    padding: 0 !important; }
 
 .panel-pub {
-  margin: 2rem; }
-
-.jumbotron {
-  width: 60%;
-  text-align: center; }
-
-.card {
-  margin: 0 2em 0 2em; }
+  margin-top: 2%;
+  margin-left: 12%;
+  height: 70%;
+  margin-bottom: 80em; }
 
 .display-3 {
   font-family: "Pacifico", cursive; }
@@ -125,7 +146,8 @@ p {
 
 .photorama {
   width: 100%;
-  margin-top: 5%; }
+  margin-top: 5%;
+  margin-bottom: 10em; }
   .photorama .picturama {
     width: 100% !important; }
 
@@ -141,7 +163,8 @@ p {
   color: white;
   text-shadow: 1px 1px #007bff;
   font-weight: bold;
-  text-align: justify; }
+  text-align: justify;
+  padding-bottom: 10rem; }
   .contact-us .modal-body, .contact-us .modal-header, .contact-us .modal-footer {
     background-color: black; }
 
