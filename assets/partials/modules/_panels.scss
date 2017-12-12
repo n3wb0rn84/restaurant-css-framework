@@ -5,16 +5,15 @@
   img{
     width: 100%;
     height: auto;
-    margin:0 !important;
-    padding:0 !important;
   }
 }
 
 .panel-pub{
+  width:100%;
   margin-top: 2%;
-  margin-left: 12%;
+  margin-left: 0% !important;
   height:70%;
-  margin-bottom: 80em;
+  margin-bottom: 85em;
 }
 
 
@@ -37,6 +36,7 @@
 }
 
 .localisation{
+  margin-bottom: 10em;
    p{
   font-size: 20px;
   text-align: center;

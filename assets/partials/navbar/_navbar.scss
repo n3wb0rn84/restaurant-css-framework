@@ -13,6 +13,15 @@
 }
 
 .menu-switch{
-  padding-left:6% !important;
+  &:first-child{
+    padding-left: 6%;
+  }
+  margin-right: 0% !important;
+}
 
+.navbar{
+  overflow-x: hidden;
+  width: 100%;
+  left:0;
+  right:0;
 }

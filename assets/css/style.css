@@ -84,22 +84,29 @@ footer {
   display: block; }
 
 .menu-switch {
-  padding-left: 6% !important; }
+  margin-right: 0% !important; }
+  .menu-switch:first-child {
+    padding-left: 6%; }
+
+.navbar {
+  overflow-x: hidden;
+  width: 100%;
+  left: 0;
+  right: 0; }
 
 .publi {
   width: 20%;
   height: 100%; }
   .publi img {
     width: 100%;
-    height: auto;
-    margin: 0 !important;
-    padding: 0 !important; }
+    height: auto; }
 
 .panel-pub {
+  width: 100%;
   margin-top: 2%;
-  margin-left: 12%;
+  margin-left: 0% !important;
   height: 70%;
-  margin-bottom: 80em; }
+  margin-bottom: 85em; }
 
 .display-3 {
   font-family: "Pacifico", cursive; }
@@ -115,20 +122,23 @@ footer {
   width: 100%;
   height: 50%; }
 
-.localisation p {
-  font-size: 20px;
-  text-align: center; }
-.localisation .card {
-  border: 1px black solid; }
-.localisation .card-body {
-  background-color: #007bff;
-  color: white;
-  text-shadow: 1px 1px black;
-  font-weight: bold; }
+.localisation {
+  margin-bottom: 10em; }
+  .localisation p {
+    font-size: 20px;
+    text-align: center; }
+  .localisation .card {
+    border: 1px black solid; }
+  .localisation .card-body {
+    background-color: #007bff;
+    color: white;
+    text-shadow: 1px 1px black;
+    font-weight: bold; }
 
 #accordion {
-  margin-left: 13%;
-  margin-top: 2%; }
+  margin-left: 20%;
+  margin-top: 2%;
+  margin-bottom: 10em; }
   #accordion span {
     float: right; }
   #accordion .card {
