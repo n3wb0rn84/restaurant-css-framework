@@ -48,24 +48,20 @@ footer {
   font-weight: bold; }
 
 .wrapper {
-  position: relative;
   display: block;
   text-align: center;
   color: white;
   margin-top: 8em;
   text-shadow: 1px 1px #007bff; }
-  .wrapper img {
-    position: absolute;
-    width: 7em;
-    height: 7em;
-    right: 37em;
-    top: 25em; }
+  .wrapper .container {
+    width: 100%;
+    margin-top: 5%; }
 
-#main {
-  position: absolute;
-  top: 18em;
-  right: 38em;
-  width: 100px;
+.bloc-img img {
+  width: 7em;
+  height: 7em; }
+.bloc-img #main {
+  width: 120px;
   animation: show 1s infinite linear alternate; }
 
 @keyframes show {
@@ -96,8 +92,14 @@ footer {
 
 .publi {
   width: 20%;
-  height: 100%; }
+  height: 100%;
+  background-color: transparent !important;
+  color: white;
+  border: none !important;
+  text-shadow: 1px 1px #007bff;
+  margin-top: 5%; }
   .publi img {
+    display: block;
     width: 100%;
     height: auto; }
 
@@ -106,7 +108,10 @@ footer {
   margin-top: 2%;
   margin-left: 0% !important;
   height: 70%;
-  margin-bottom: 85em; }
+  margin-bottom: 85em;
+  text-align: center; }
+  .panel-pub .jimbo {
+    margin-top: -10%; }
 
 .display-3 {
   font-family: "Pacifico", cursive; }
@@ -159,7 +164,8 @@ footer {
   margin-top: 5%;
   margin-bottom: 10em; }
   .photorama .picturama {
-    width: 100% !important; }
+    width: 100% !important;
+    height: 100%; }
 
 .galerie-title {
   padding-top: 5%;

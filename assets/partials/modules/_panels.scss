@@ -1,8 +1,13 @@
 .publi{
   width: 20%;
   height: 100%;
-
+  background-color: transparent !important;
+  color:white;
+  border: none !important;
+  text-shadow: 1px 1px #007bff;
+  margin-top:5%;
   img{
+    display: block;
     width: 100%;
     height: auto;
   }
@@ -14,6 +19,10 @@
   margin-left: 0% !important;
   height:70%;
   margin-bottom: 85em;
+  text-align:center;
+  .jimbo{
+    margin-top: -10%;
+  }
 }
 
 
